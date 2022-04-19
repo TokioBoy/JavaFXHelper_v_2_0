@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="Helper.ControllerFirst">
+    <children>
+        <ImageView fitHeight="62.0" fitWidth="108.0" layoutX="189.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@assets/img_1.png" />
+            </image></ImageView>
+        <Button fx:id="btn2" layoutX="-1.0" layoutY="61.0" mnemonicParsing="false" prefHeight="62.0" prefWidth="159.0" style="-fx-background-color: green;" text="Google">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </Button>
+        <ImageView fitHeight="62.0" fitWidth="143.0" layoutX="181.0" layoutY="61.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@assets/img_3.png" />
+            </image></ImageView>
+        <Button fx:id="btn3" layoutX="-1.0" layoutY="123.0" mnemonicParsing="false" prefHeight="62.0" prefWidth="159.0" text="Human">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </Button>
+        <ImageView fitHeight="62.0" fitWidth="143.0" layoutX="169.0" layoutY="123.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@assets/img_2.png" />
+            </image></ImageView>
+        <Button fx:id="btn7" layoutX="301.0" mnemonicParsing="false" prefHeight="62.0" prefWidth="159.0" style="-fx-background-color: gray;" text="КрымГаз">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </Button>
+        <Button fx:id="btn8" layoutX="300.0" layoutY="62.0" mnemonicParsing="false" prefHeight="62.0" prefWidth="159.0" style="-fx-background-color: blue;" text="КрымВода" textFill="RED">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </Button>
+        <Button fx:id="btn9" layoutX="301.0" layoutY="123.0" mnemonicParsing="false" prefHeight="62.0" prefWidth="159.0" style="-fx-background-color: yellow;" text="КрымЭнерго">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </Button>
+        <ImageView fitHeight="62.0" fitWidth="143.0" layoutX="473.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@assets/img_6.png" />
+            </image></ImageView>
+        <ImageView fitHeight="62.0" fitWidth="143.0" layoutX="473.0" layoutY="61.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@assets/img_7.png" />
+            </image></ImageView>
+        <ImageView fitHeight="62.0" fitWidth="143.0" layoutX="487.0" layoutY="123.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@assets/img_1.png" />
+            </image></ImageView>
+        <Label layoutY="185.0" prefHeight="10.0" prefWidth="159.0" text="Для личного пользования......." textFill="#fff9f9" />
+        <Label layoutX="159.0" layoutY="185.0" prefHeight="17.0" prefWidth="143.0" text="             Картинки" textFill="WHITE" />
+        <Label layoutX="300.0" layoutY="185.0" prefHeight="10.0" prefWidth="159.0" text="Передача данных в Крым" textFill="#fff9f9" />
+        <Label layoutX="457.0" layoutY="185.0" prefHeight="17.0" prefWidth="143.0" text="             Картинки" textFill="WHITE" />
+        <ImageView fitHeight="144.0" fitWidth="132.0" layoutX="326.0" layoutY="217.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@assets/img.png" />
+            </image></ImageView>
+        <Label layoutX="302.0" layoutY="344.0" prefHeight="62.0" prefWidth="159.0" text="Данные для передачи:" textFill="WHITE">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="457.0" layoutY="214.0" prefHeight="17.0" prefWidth="143.0" text="Данные для КрымГаз:" textFill="WHITE" />
+        <Label layoutX="457.0" layoutY="232.0" prefHeight="17.0" prefWidth="143.0" text="Имя:vika2016lega@gmail.com" textFill="WHITE" />
+        <Label layoutX="457.0" layoutY="249.0" prefHeight="17.0" prefWidth="143.0" text="Пароль:sssr56" textFill="WHITE" />
+        <Label layoutX="457.0" layoutY="263.0" prefHeight="17.0" prefWidth="143.0" text="Данные для КрымВода:" textFill="WHITE" />
+        <Label layoutX="457.0" layoutY="280.0" prefHeight="17.0" prefWidth="143.0" text="Имя:+79780752280" textFill="WHITE" />
+        <Label layoutX="457.0" layoutY="297.0" prefHeight="17.0" prefWidth="143.0" text="Пароль:sssr5656" textFill="WHITE" />
+        <Label layoutX="457.0" layoutY="314.0" prefHeight="17.0" prefWidth="143.0" text="Данные для КрымЭнерг:" textFill="WHITE" />
+        <Label layoutX="457.0" layoutY="331.0" prefHeight="17.0" prefWidth="143.0" text="Имя:lega" textFill="WHITE" />
+        <Label layoutX="457.0" layoutY="348.0" prefHeight="17.0" prefWidth="143.0" text="Пароль:" textFill="WHITE" />
+        <ImageView fitHeight="62.0" fitWidth="108.0" layoutX="169.0" layoutY="210.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@assets/img_4.png" />
+            </image></ImageView>
+        <ImageView fitHeight="62.0" fitWidth="143.0" layoutX="181.0" layoutY="326.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@assets/img_8.png" />
+            </image></ImageView>
+        <ImageView fitHeight="62.0" fitWidth="143.0" layoutX="168.0" layoutY="266.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@assets/img_5.png" />
+            </image></ImageView>
+        <Button fx:id="btn4" layoutY="201.0" mnemonicParsing="false" prefHeight="73.0" prefWidth="159.0" style="-fx-background-color: gray;" text="Y:TenshinRyu" textFill="WHITE">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </Button>
+        <Button fx:id="btn5" layoutY="266.0" mnemonicParsing="false" prefHeight="62.0" prefWidth="159.0" style="-fx-background-color: blue;" text="Facebook" textFill="#f40000">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </Button>
+        <Button fx:id="btn6_1" layoutY="326.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="77.0" style="-fx-background-color: red;" text="Read">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </Button>
+        <Label layoutY="366.0" prefHeight="33.0" prefWidth="77.0" text="Author.today" textFill="WHITE" />
+        <Button fx:id="btn6_2" layoutX="77.0" layoutY="326.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="84.0" style="-fx-background-color: red;" text="Read">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </Button>
+        <Label layoutX="77.0" layoutY="367.0" prefHeight="33.0" prefWidth="84.0" text="mangalib,com" textFill="WHITE" />
+      <Button fx:id="next1" layoutX="503.0" layoutY="344.0" mnemonicParsing="false" style="-fx-background-color: black;" text="Выход в меню" textFill="WHITE" />
+      <Button fx:id="btn" layoutY="2.0" mnemonicParsing="false" prefHeight="61.0" prefWidth="159.0" style="-fx-background-color: red;" text="YouTube">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+    </children>
+</AnchorPane>

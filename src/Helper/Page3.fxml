@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Helper.ControllerThird">
+    <children>
+        <AnchorPane layoutX="-1.0" layoutY="-2.0" prefHeight="70.0" prefWidth="600.0" style="-fx-background-color: grey;">
+            <children>
+                <Text layoutX="183.0" layoutY="43.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Погодник by TokioBoy" wrappingWidth="234.80341339111328">
+                    <font>
+                        <Font name="Bell MT Italic" size="24.0" />
+                    </font>
+                </Text>
+            </children>
+        </AnchorPane>
+        <TextField fx:id="gorod" focusTraversable="false" layoutX="121.0" layoutY="81.0" prefHeight="43.0" prefWidth="476.0" style="-fx-background-color: #8db600;">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </TextField>
+        <Button fx:id="pogoda" layoutX="252.0" layoutY="124.0" mnemonicParsing="false" style="-fx-background-color: red;" text="Узнать погоду" textFill="#090909" />
+        <Text fx:id="infopogoda" fill="RED" fontSmoothingType="LCD" layoutX="39.0" layoutY="193.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Информация о погоде:">
+            <font>
+                <Font name="Constantia Italic" size="21.0" />
+            </font>
+        </Text>
+        <Text fx:id="tempnow" fill="RED" layoutX="7.0" layoutY="226.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Температура сейчас:">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Text>
+        <Text fx:id="feellike" fill="RED" layoutX="19.0" layoutY="260.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ощущается как:">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Text>
+        <Text fx:id="Maxtemp" fill="RED" layoutX="16.0" layoutY="291.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Максимальная t:">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Text>
+        <Text fx:id="MinTemp" fill="RED" layoutX="19.0" layoutY="320.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Минимальная t:">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Text>
+        <Text fx:id="pressure" fill="RED" layoutX="22.0" layoutY="351.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Давление:">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Text>
+        <Text fx:id="pozelanie" fill="#1eff00" layoutX="7.0" layoutY="382.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Счастливого Дня!">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Text>
+        <Label layoutX="1.0" layoutY="90.0" prefHeight="26.0" prefWidth="117.0" text="Введите город:" textFill="RED">
+            <font>
+                <Font size="17.0" />
+            </font>
+        </Label>
+        <Button fx:id="back2" layoutY="387.0" mnemonicParsing="false" style="-fx-background-color: black;" text="Выход в меню" textFill="WHITE" />
+      <Label fx:id="lblwrong" layoutX="358.0" layoutY="124.0" prefHeight="17.0" prefWidth="235.0" textFill="WHITE" />
+    </children>
+</AnchorPane>

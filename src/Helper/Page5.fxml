@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: black;"
+            xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="Helper.ControllerFifth">
+    <children>
+        <Button fx:id="btnES" layoutY="71.0" mnemonicParsing="false" prefHeight="70.0" prefWidth="163.0"
+                style="-fx-background-color: black;" text="EverlastingSummer" textFill="WHITE"/>
+        <Button fx:id="btnHE" layoutY="141.0" mnemonicParsing="false" prefHeight="70.0" prefWidth="163.0"
+                style="-fx-background-color: black;" text="Helish" textFill="WHITE"/>
+        <Button fx:id="btnAO" layoutY="1.0" mnemonicParsing="false" prefHeight="70.0" prefWidth="163.0"
+                style="-fx-background-color: black;" text="AlbionOnline" textFill="WHITE"/>
+        <Button fx:id="btnTW3" layoutY="211.0" mnemonicParsing="false" prefHeight="70.0" prefWidth="163.0"
+                style="-fx-background-color: black;" text="TheWitcher3" textFill="WHITE"/>
+        <Button fx:id="btnS" layoutY="281.0" mnemonicParsing="false" prefHeight="70.0" prefWidth="163.0"
+                style="-fx-background-color: black;" text="Steam" textFill="WHITE"/>
+        <Button fx:id="btnII" layoutX="436.0" layoutY="1.0" mnemonicParsing="false" prefHeight="70.0" prefWidth="163.0"
+                style="-fx-background-color: black;" text="IntelliJ IDEA" textFill="WHITE"/>
+        <Button fx:id="btnSB" layoutX="436.0" layoutY="71.0" mnemonicParsing="false" prefHeight="70.0" prefWidth="163.0"
+                style="-fx-background-color: black;" text="Shogun2" textFill="WHITE"/>
+        <Button fx:id="btnD" layoutX="436.0" layoutY="141.0" mnemonicParsing="false" prefHeight="70.0" prefWidth="163.0"
+                style="-fx-background-color: black;" text="Discord" textFill="WHITE"/>
+        <Button fx:id="btnT" layoutX="436.0" layoutY="211.0" mnemonicParsing="false" prefHeight="70.0" prefWidth="163.0"
+                style="-fx-background-color: black;" text="Telegram" textFill="WHITE"/>
+        <Button fx:id="btnV" layoutX="436.0" layoutY="281.0" mnemonicParsing="false" prefHeight="70.0" prefWidth="163.0"
+                style="-fx-background-color: black;" text="Viber" textFill="WHITE"/>
+        <ImageView fitHeight="70.0" fitWidth="137.0" layoutX="163.0" layoutY="1.0" pickOnBounds="true"
+                   preserveRatio="true">
+            <image>
+                <Image url="@assets/img_14.png"/>
+            </image>
+        </ImageView>
+        <ImageView fitHeight="70.0" fitWidth="137.0" layoutX="300.0" layoutY="1.0" pickOnBounds="true"
+                   preserveRatio="true">
+            <image>
+                <Image url="@assets/img_19.png"/>
+            </image>
+        </ImageView>
+        <ImageView fitHeight="70.0" fitWidth="137.0" layoutX="163.0" layoutY="71.0" pickOnBounds="true"
+                   preserveRatio="true">
+            <image>
+                <Image url="@assets/img_15.png"/>
+            </image>
+        </ImageView>
+        <ImageView fitHeight="79.0" fitWidth="137.0" layoutX="163.0" layoutY="141.0" pickOnBounds="true"
+                   preserveRatio="true">
+            <image>
+                <Image url="@assets/img_16.png"/>
+            </image>
+        </ImageView>
+        <ImageView fitHeight="70.0" fitWidth="137.0" layoutX="163.0" layoutY="211.0" pickOnBounds="true"
+                   preserveRatio="true">
+            <image>
+                <Image url="@assets/img_17.png"/>
+            </image>
+        </ImageView>
+        <ImageView fitHeight="70.0" fitWidth="137.0" layoutX="163.0" layoutY="281.0" pickOnBounds="true"
+                   preserveRatio="true">
+            <image>
+                <Image url="@assets/img_18.png"/>
+            </image>
+        </ImageView>
+        <ImageView fitHeight="70.0" fitWidth="137.0" layoutX="308.0" layoutY="71.0" pickOnBounds="true"
+                   preserveRatio="true">
+            <image>
+                <Image url="@assets/img_24.png"/>
+            </image>
+        </ImageView>
+        <ImageView fitHeight="70.0" fitWidth="137.0" layoutX="307.0" layoutY="141.0" pickOnBounds="true"
+                   preserveRatio="true">
+            <image>
+                <Image url="@assets/img_21.png"/>
+            </image>
+        </ImageView>
+        <ImageView fitHeight="70.0" fitWidth="137.0" layoutX="334.0" layoutY="211.0" pickOnBounds="true"
+                   preserveRatio="true">
+            <image>
+                <Image url="@assets/img_22.png"/>
+            </image>
+        </ImageView>
+        <ImageView fitHeight="70.0" fitWidth="137.0" layoutX="335.0" layoutY="281.0" pickOnBounds="true"
+                   preserveRatio="true">
+            <image>
+                <Image url="@assets/img_23.png"/>
+            </image>
+        </ImageView>
+        <AnchorPane layoutY="351.0" prefHeight="50.0" prefWidth="600.0" style="-fx-background-color: gold;">
+            <children>
+                <Button fx:id="btnEXIT" layoutY="2.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="163.0"
+                        style="-fx-background-color: gold;" text="Выход в меню" textFill="RED"/>
+            </children>
+        </AnchorPane>
+    </children>
+</AnchorPane>

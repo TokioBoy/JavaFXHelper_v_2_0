@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: black;"
+            xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="Helper.ControllerSecond">
+    <children>
+        <Button fx:id="btnpw" layoutY="1.0" mnemonicParsing="false" prefHeight="137.0" prefWidth="172.0"
+                style="-fx-background-color: black;" text="POWERWOLF" textFill="WHITE">
+            <font>
+                <Font size="21.0"/>
+            </font>
+        </Button>
+        <Button fx:id="btnaria" layoutY="138.0" mnemonicParsing="false" prefHeight="137.0" prefWidth="172.0"
+                style="-fx-background-color: black;" text="АРИЯ" textFill="WHITE">
+            <font>
+                <Font size="21.0"/>
+            </font>
+        </Button>
+        <ImageView fitHeight="137.0" fitWidth="172.0" layoutX="190.0" layoutY="8.0" pickOnBounds="true"
+                   preserveRatio="true">
+            <image>
+                <Image url="@assets/img_10.png"/>
+            </image>
+        </ImageView>
+        <ImageView fitHeight="137.0" fitWidth="163.0" layoutX="189.0" layoutY="138.0" pickOnBounds="true"
+                   preserveRatio="true">
+            <image>
+                <Image url="@assets/img_9.png"/>
+            </image>
+        </ImageView>
+        <Button fx:id="btns" layoutX="344.0" mnemonicParsing="false" prefHeight="152.0" prefWidth="172.0"
+                style="-fx-background-color: black;" text="SABATON" textFill="WHITE">
+            <font>
+                <Font size="21.0"/>
+            </font>
+        </Button>
+        <ImageView fitHeight="123.0" fitWidth="172.0" layoutX="369.0" layoutY="152.0" pickOnBounds="true"
+                   preserveRatio="true">
+            <image>
+                <Image url="@assets/img_12.png"/>
+            </image>
+        </ImageView>
+        <Button fx:id="btnx1" layoutX="516.0" layoutY="1.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="86.0"
+                style="-fx-background-color: black;" text="АрияСборник" textFill="WHITE"/>
+        <Button fx:id="btnx2" layoutX="516.0" layoutY="26.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="86.0"
+                style="-fx-background-color: black;" text="КИШсборник" textFill="WHITE"/>
+        <Button fx:id="btnx3" layoutX="516.0" layoutY="51.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="86.0"
+                style="-fx-background-color: black;" text="PWлучшее" textFill="WHITE"/>
+        <Button fx:id="btnx4" layoutX="516.0" layoutY="76.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="86.0"
+                style="-fx-background-color: black;" text="СГлучшее" textFill="WHITE"/>
+        <Button fx:id="btnx5" layoutX="516.0" layoutY="101.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="86.0"
+                style="-fx-background-color: black;" text="В.Цойлучшее" textFill="WHITE"/>
+        <Button fx:id="btnx6" layoutX="516.0" layoutY="126.0" mnemonicParsing="false" prefHeight="12.0" prefWidth="86.0"
+                style="-fx-background-color: black;" text="В.Цойотборное" textFill="WHITE"/>
+        <Button fx:id="btnx7" layoutX="516.0" layoutY="152.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="86.0"
+                style="-fx-background-color: black;" text="ХЗсборникфонк" textFill="WHITE"/>
+        <Button fx:id="btnx8" layoutX="516.0" layoutY="177.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="86.0"
+                style="-fx-background-color: black;" text="SalbumGW" textFill="WHITE"/>
+        <Button fx:id="btnx9" layoutX="516.0" layoutY="201.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="86.0"
+                style="-fx-background-color: black;" text="Asalbum" textFill="WHITE"/>
+        <Button fx:id="btnx10" layoutX="516.0" layoutY="226.0" mnemonicParsing="false" prefHeight="25.0"
+                prefWidth="86.0" style="-fx-background-color: black;" text="Sheroesalbum" textFill="WHITE"/>
+        <Button fx:id="btnx11" layoutX="516.0" layoutY="251.0" mnemonicParsing="false" prefHeight="25.0"
+                prefWidth="86.0" style="-fx-background-color: black;" text="PWsacrament of sinalbum" textFill="WHITE"/>
+        <Button fx:id="btnx12" layoutX="516.0" layoutY="276.0" mnemonicParsing="false" prefHeight="25.0"
+                prefWidth="86.0" style="-fx-background-color: black;" text="KOrpiklaniVodka" textFill="WHITE"/>
+        <Button fx:id="btnx13" layoutX="516.0" layoutY="301.0" mnemonicParsing="false" prefHeight="25.0"
+                prefWidth="86.0" style="-fx-background-color: black;" text="Vodka1hour" textFill="WHITE"/>
+        <Button fx:id="btnx16" layoutX="514.0" layoutY="325.0" mnemonicParsing="false" prefHeight="25.0"
+                prefWidth="86.0" style="-fx-background-color: black;" text="Ария10часов...." textFill="WHITE"/>
+        <Button fx:id="btnsg" layoutX="172.0" layoutY="276.0" mnemonicParsing="false" prefHeight="123.0"
+                prefWidth="172.0" style="-fx-background-color: black;" text="СЕКТОР ГАЗА" textFill="WHITE">
+            <font>
+                <Font size="21.0"/>
+            </font>
+        </Button>
+        <ImageView fitHeight="123.0" fitWidth="172.0" layoutX="369.0" layoutY="277.0" pickOnBounds="true"
+                   preserveRatio="true">
+            <image>
+                <Image url="@assets/img_11.png"/>
+            </image>
+        </ImageView>
+        <Button fx:id="back1" layoutX="504.0" layoutY="350.0" mnemonicParsing="false"
+                style="-fx-background-color: black;" text="Выход в меню" textFill="WHITE"/>
+    </children>
+</AnchorPane>
