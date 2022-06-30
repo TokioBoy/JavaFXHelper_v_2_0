@@ -41,7 +41,7 @@ public class ControllerEnter {
     @FXML
     void initialize() throws IOException {
         String pwd = password.getText();
-        if (pwd.equals("dragon90")) {
+        if (pwd.equals("password")) {
             btnenter.setOnAction(event1 -> {
                 FXMLLoader loader = new FXMLLoader();
                 loader.setLocation(getClass().getResource("PageMain.fxml"));
@@ -59,7 +59,7 @@ public class ControllerEnter {
                 stage1.close();
             });
 
-        } else if (pwd.equals("вкфпщт90")) {
+        } else if (pwd.equals("зфыыцщкв")) {
             btnenter.setOnAction(event1 -> {
                 FXMLLoader loader = new FXMLLoader();
                 loader.setLocation(getClass().getResource("PageMain.fxml"));
